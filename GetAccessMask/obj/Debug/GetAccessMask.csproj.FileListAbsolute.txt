@@ -1,2 +1,0 @@
-\\intdec.com\files\private\ttrent\my documents\visual studio 2015\Projects\GetAccessMask\GetAccessMask\bin\Debug\GetAccessMask.exe.config
-\\intdec.com\Files\Private\TTRENT\My Documents\Git\GetAccessMask_CSharp\GetAccessMask\bin\Debug\GetAccessMask.exe.config

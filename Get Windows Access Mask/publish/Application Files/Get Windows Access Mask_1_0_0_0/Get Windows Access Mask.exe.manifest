@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Get Windows Access Mask.exe" version="1.0.0.0" publicKeyToken="53de54980ce07ac5" language="en-US" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="mask.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Get Windows Access Mask" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Get Windows Access Mask.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Get Windows Access Mask.exe" size="96112">
+      <assemblyIdentity name="Get Windows Access Mask" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>GnGGDNRg20aD6r/8XfJdP9DOVv/YZrujDoHd7FLgb3c=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Get Windows Access Mask.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="mask.ico" size="36884">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>OKc5DxkBv6wdXYLx5dhlM42q97vvT/mKV6t9iDfN/Js=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on and is
+           is designed to work with. Uncomment the appropriate elements and Windows will 
+           automatically selected the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=&quot;Trent, Terry&quot;, OU=IDI Users New, DC=intdec, DC=com" issuerKeyHash="6f9d615d9f073ec2ecc309876be67f68c6151bb8" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>uXdc4t+OVE6iiAl+ueOz5NwC5xyfRFS7uS+HPikkYus=</DigestValue></Reference></SignedInfo><SignatureValue>hdnGbuueHrGZoksNbNlOVz95Jb19Z6M4DlCk0jrucbCErQ/YTQzAMfhv5tJR+YXbxEpJ25je2C+EF8dZRbsRqinP7D/dTZpUD8USHVNQ3jZVdvYK3U7bmZOfJgec6cA5Z5RZH2pfGK0DBSm0k710OkV94vMotpDQew4YIDZPBKa8ZXh8byWGwKuwt5N3PIJ693hXrHHMiE+SADyDyp0nVNvyl2LXcTIuWI1rPpp2hvirhTLUNTsMgR/LDhS0KVAaysYK5trNUOECs+6V+vXj+K3U/2dqWaFQdzB+pxqWC/AOpO4FkSG32O9E/5p+QXmNqJEMhba5KDQTx74h2JDuMw==</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>saq3RpFNvXiWVHjjXhjsista4jCldzBzMP2zqJ6MCl9WICeQE8p/8dlLlTDluhQHne1K08SZ3aw4WEZmOcEbG1K3oCNdXfZOgC2UtoAc8TSWkO3XJzjjP7vPQvb7b2ep7XDdl+AQZWRyeBlk2oTUH+P0Dn2oTyCNcJG3HmCVgm9u0YO3GhnWywdNqqS4gfneDGHFXzsYjgHOFQtW14aLLQconOWEaj2uho0n5FbPEaejt6RQy7/lhdA1E9r0rerhNunac0wxUaM/4WstIcJI1SqyAFH1cmXzzXdytFMCu6iU84ypHAJbILNX1Vv6x4fEX/FSjSUIN+x4htqdqxkR+Q==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="eb6224293e872fb9bb54449f1ce702dce4b3e3b97e0988a24e548edfe25c77b9" Description="" Url=""><as:assemblyIdentity name="Get Windows Access Mask.exe" version="1.0.0.0" publicKeyToken="53de54980ce07ac5" language="en-US" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN="Trent, Terry", OU=IDI Users New, DC=intdec, DC=com</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>YY67ESg9y+XOKPKMeKu78BARWUzu/uk3YUZMloX/8S4=</DigestValue></Reference></SignedInfo><SignatureValue>k79HPnXppvmBze1SRZbiMEZq9+JzZuS9iilnoOCnfUd9JdbPPpL39Auwrxr0hSkmezdaYuL782XHh9JDrtsoLQpS3mBCCMBCHQTUlmvzpZ3ozyotufZ6lRx1pcEoGiCS+1TbKWRIC0a2aVg0SSWVdA1/aRS0koZElvDIF2YTF48klDJXyjmCAE+EN8TH0o54GPzYK1gjjR58qPQMdBPnWaAz1UHsylZu4165H2vv/s1BeFxKl2fcxS0TTtVyZZX/onBYFAaYZfWnmQTbLqzb/xNpG2EllQvXVvp4Oi72pS57At6PATHvXKQvHjvWVAWNDTPkUBGNRnChOmloQVKbfg==</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>saq3RpFNvXiWVHjjXhjsista4jCldzBzMP2zqJ6MCl9WICeQE8p/8dlLlTDluhQHne1K08SZ3aw4WEZmOcEbG1K3oCNdXfZOgC2UtoAc8TSWkO3XJzjjP7vPQvb7b2ep7XDdl+AQZWRyeBlk2oTUH+P0Dn2oTyCNcJG3HmCVgm9u0YO3GhnWywdNqqS4gfneDGHFXzsYjgHOFQtW14aLLQconOWEaj2uho0n5FbPEaejt6RQy7/lhdA1E9r0rerhNunac0wxUaM/4WstIcJI1SqyAFH1cmXzzXdytFMCu6iU84ypHAJbILNX1Vv6x4fEX/FSjSUIN+x4htqdqxkR+Q==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>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</X509Certificate><X509Certificate>MIIEjDCCA3SgAwIBAgITGAAAAAPn7hNblxGMngAAAAAAAzANBgkqhkiG9w0BAQsFADBYMRMwEQYKCZImiZPyLGQBGRYDY29tMRYwFAYKCZImiZPyLGQBGRYGaW50ZGVjMSkwJwYDVQQDEyBJbnRlbGxpZ2VudCBEZWNpc2lvbnMgSW5jIC0gUm9vdDAeFw0xNDEwMjAxNjU0MjFaFw0zNDEwMDgxNDU0MTJaMEExEzARBgoJkiaJk/IsZAEZFgNjb20xFjAUBgoJkiaJk/IsZAEZFgZpbnRkZWMxEjAQBgNVBAMTCUlELURvbWFpbjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALnDwbW/XvC6xBOqRg59yGhH35c1DQKfmNlVlB8ZOwkuxRYGd4qCdKC1mWL4wFZb3jsHP1uUjYw589mdKpQhSyhV2RyG+zoCStLT2dzsJkCCBEjhIceKk3O22vRiccdJ6zWy9/ZISt7um/JjVhoyGmyB7WA2F0JcKWAqCUyJmESqyPdVH02qDULZ8q5ELKZRIZhQaE6b2+A5RHsunetWLElsPYyGB7St6GJ9SIw3GBvBnHTuwDMPjPU8e15kLIxx9kJVH60EZ/JnockRGRSuYgy5tzwfOYi/Lg6glLe7C1AGSRFG9cgI2BtzhM8+7O4JvZwm+hyhKhdRTX/WYtjS0YMCAwEAAaOCAWQwggFgMBAGCSsGAQQBgjcVAQQDAgEAMB0GA1UdDgQWBBRvnWFdnwc+wuzDCYdr5n9oxhUbuDAZBgkrBgEEAYI3FAIEDB4KAFMAdQBiAEMAQTALBgNVHQ8EBAMCAYYwDwYDVR0TAQH/BAUwAwEB/zAfBgNVHSMEGDAWgBQmZj/IvqDRAlynPxvgBPSMXCbRszBgBgNVHR8EWTBXMFWgU6BRhk9odHRwOi8vcGVhcmwuaW50ZGVjLmNvbS9DZXJ0RW5yb2xsL0ludGVsbGlnZW50JTIwRGVjaXNpb25zJTIwSW5jJTIwLSUyMFJvb3QuY3JsMHEGCCsGAQUFBwEBBGUwYzBhBggrBgEFBQcwAoZVaHR0cDovL3BlYXJsLmludGRlYy5jb20vQ2VydEVucm9sbC9Jdm9yeV9JbnRlbGxpZ2VudCUyMERlY2lzaW9ucyUyMEluYyUyMC0lMjBSb290LmNydDANBgkqhkiG9w0BAQsFAAOCAQEAl8rPcA/PH9+nkNrawYHfUXnWUvoRkVjGymju5OWYXzDDRFVLeVWGW5Hhf6eT974BsSQ9iixS0KR/0RJlaDRiqI9rQ8XdBWEaCf/u2XXTPqceda/vvfTPq549ClrYQDh6nEpala03xo6NkK/Wa9GFknz3t0yFqo4yrEKiG8RGJmuoEqtP2wK680naRHWzmYfV23pMGFQqWcw95oBVe2WauP3JQfkFg6ohhYG1FetEjrxTSrWDv6dimNxOONed0+0LLYCsmjA6mYRRgamnfIHDJyHsmcKvZvI0sQuTXDNpyjdVBGw0V6PoVsCJWrkMTKBGKy8zDN7DgmRS1ZHD8wxRzg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

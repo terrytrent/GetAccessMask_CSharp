@@ -1,0 +1,20 @@
+C:\Projects\Get Windows Access Mask\Get Windows Access Mask\bin\Release\Get Windows Access Mask.exe.config
+C:\Projects\Get Windows Access Mask\Get Windows Access Mask\bin\Release\Get Windows Access Mask.exe.manifest
+C:\Projects\Get Windows Access Mask\Get Windows Access Mask\bin\Release\Get Windows Access Mask.application
+C:\Projects\Get Windows Access Mask\Get Windows Access Mask\bin\Release\Get Windows Access Mask.exe
+C:\Projects\Get Windows Access Mask\Get Windows Access Mask\bin\Release\Get Windows Access Mask.pdb
+C:\Projects\Get Windows Access Mask\Get Windows Access Mask\obj\Release\MainWindow.g.cs
+C:\Projects\Get Windows Access Mask\Get Windows Access Mask\obj\Release\Results.g.cs
+C:\Projects\Get Windows Access Mask\Get Windows Access Mask\obj\Release\App.g.cs
+C:\Projects\Get Windows Access Mask\Get Windows Access Mask\obj\Release\Get Windows Access Mask_MarkupCompile.cache
+C:\Projects\Get Windows Access Mask\Get Windows Access Mask\obj\Release\Get Windows Access Mask_MarkupCompile.lref
+C:\Projects\Get Windows Access Mask\Get Windows Access Mask\obj\Release\MainWindow.baml
+C:\Projects\Get Windows Access Mask\Get Windows Access Mask\obj\Release\Results.baml
+C:\Projects\Get Windows Access Mask\Get Windows Access Mask\obj\Release\Get Windows Access Mask.g.resources
+C:\Projects\Get Windows Access Mask\Get Windows Access Mask\obj\Release\Get_Windows_Access_Mask.Properties.Resources.resources
+C:\Projects\Get Windows Access Mask\Get Windows Access Mask\obj\Release\Get Windows Access Mask.csproj.GenerateResource.Cache
+C:\Projects\Get Windows Access Mask\Get Windows Access Mask\obj\Release\Get Windows Access Mask.TrustInfo.xml
+C:\Projects\Get Windows Access Mask\Get Windows Access Mask\obj\Release\Get Windows Access Mask.exe.manifest
+C:\Projects\Get Windows Access Mask\Get Windows Access Mask\obj\Release\Get Windows Access Mask.application
+C:\Projects\Get Windows Access Mask\Get Windows Access Mask\obj\Release\Get Windows Access Mask.exe
+C:\Projects\Get Windows Access Mask\Get Windows Access Mask\obj\Release\Get Windows Access Mask.pdb

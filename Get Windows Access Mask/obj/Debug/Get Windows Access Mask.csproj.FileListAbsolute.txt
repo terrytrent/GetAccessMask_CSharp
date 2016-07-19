@@ -1,0 +1,22 @@
+C:\Projects\Get Windows Access Mask\Get Windows Access Mask\bin\Debug\Get Windows Access Mask.exe.config
+C:\Projects\Get Windows Access Mask\Get Windows Access Mask\obj\Debug\MainWindow.g.cs
+C:\Projects\Get Windows Access Mask\Get Windows Access Mask\obj\Debug\App.g.cs
+C:\Projects\Get Windows Access Mask\Get Windows Access Mask\obj\Debug\Get Windows Access Mask_MarkupCompile.cache
+C:\Projects\Get Windows Access Mask\Get Windows Access Mask\obj\Debug\Get Windows Access Mask_MarkupCompile.lref
+C:\Projects\Get Windows Access Mask\Get Windows Access Mask\bin\Debug\Get Windows Access Mask.exe
+C:\Projects\Get Windows Access Mask\Get Windows Access Mask\bin\Debug\Get Windows Access Mask.pdb
+C:\Projects\Get Windows Access Mask\Get Windows Access Mask\obj\Debug\MainWindow.baml
+C:\Projects\Get Windows Access Mask\Get Windows Access Mask\obj\Debug\Get Windows Access Mask.g.resources
+C:\Projects\Get Windows Access Mask\Get Windows Access Mask\obj\Debug\Get_Windows_Access_Mask.Properties.Resources.resources
+C:\Projects\Get Windows Access Mask\Get Windows Access Mask\obj\Debug\Get Windows Access Mask.csproj.GenerateResource.Cache
+C:\Projects\Get Windows Access Mask\Get Windows Access Mask\obj\Debug\Get Windows Access Mask.exe
+C:\Projects\Get Windows Access Mask\Get Windows Access Mask\obj\Debug\Get Windows Access Mask.pdb
+C:\Projects\Get Windows Access Mask\Get Windows Access Mask\obj\Debug\Results.g.cs
+C:\Projects\Get Windows Access Mask\Get Windows Access Mask\obj\Debug\Results.baml
+C:\Projects\Get Windows Access Mask\Get Windows Access Mask\bin\Debug\Get Windows Access Mask.exe.manifest
+C:\Projects\Get Windows Access Mask\Get Windows Access Mask\bin\Debug\Get Windows Access Mask.application
+C:\Projects\Get Windows Access Mask\Get Windows Access Mask\obj\Debug\Get Windows Access Mask.TrustInfo.xml
+C:\Projects\Get Windows Access Mask\Get Windows Access Mask\obj\Debug\Get Windows Access Mask.exe.manifest
+C:\Projects\Get Windows Access Mask\Get Windows Access Mask\obj\Debug\Get Windows Access Mask.application
+C:\Projects\Get Windows Access Mask\Get Windows Access Mask\bin\Debug\Get Windows Access Mask.exe.CodeAnalysisLog.xml
+C:\Projects\Get Windows Access Mask\Get Windows Access Mask\bin\Debug\Get Windows Access Mask.exe.lastcodeanalysissucceeded
